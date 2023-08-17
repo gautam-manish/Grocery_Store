@@ -7,3 +7,49 @@ body{
     background-size: 100% 690px;
     background-repeat: no-repeat;
 }
+#logo{
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    
+}
+img{
+    width: 75px;
+    border-radius: 10px;
+}
+#head{
+    display: flex;
+    text-align: center;
+}
+#nav  {
+    justify-content: space-between;
+    float: left;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+    margin-top: 17px;
+    margin-left: 240px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    float: left;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+ul li a:hover{
+    color: rgba(255, 0, 0, 0.712);
+}
+#search{
+    margin-top: 50px;
+    margin-left: 170px;
+}
