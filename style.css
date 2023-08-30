@@ -14,12 +14,15 @@ body{
     
 }
 img{
-    width: 75px;
+    width: 60px;
+    margin-top: -20px;
     border-radius: 10px;
 }
 #head{
     display: flex;
     text-align: center;
+    background-color: white;
+    height: 75px;
 }
 #nav  {
     justify-content: space-between;
@@ -27,29 +30,50 @@ img{
     align-items: center;
     display: flex;
     padding: 40px;
-    margin-top: 17px;
-    margin-left: 240px;
+    margin-top: 12px;
+    margin-left: 200px;
+    
 }
 ul{
     display: flex;
     justify-content: center;
     float: left;
     align-items: center;
+    
 }
 ul li{
     list-style: none;
     margin-left: 50px;
+    margin-top: -30px;
     text-decoration: none;
+    border: solid 1px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
 }
+ul li:hover{
+    /* color: white; */
+    background-color: rgb(56, 135, 167);
+    border-radius: 15px;
+}
+/* ul li a:hover{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    color: white;
+} */
 ul li a{
     text-decoration: none;
     color: aliceblue;
     cursor: pointer;
+    color: rgb(56, 135, 167);
 }
 ul li a:hover{
-    color: rgba(255, 0, 0, 0.712);
+    color: white;
 }
 #search{
     margin-top: 50px;
     margin-left: 170px;
+    border: none;
 }
